@@ -1,0 +1,191 @@
+body {
+	margin: 0;
+	background: url("images/bg.png");
+	background-size: 100%;
+	background-attachment: fixed; /*не скрол*/
+	overflow-x: hidden; 
+}
+.slogan { 
+	height: 113px; 
+	width: 664px; 
+	background-image: url(images/slogan.png); 
+	position: absolute; 
+	top: 165px; 
+	left: 50%; 
+	margin-left: -190px;
+	z-index: 9; 
+}
+.logo { 
+	display: block;
+	height: 275px; 
+	width: 455px; 
+	background-image: url(images/logo.png); 
+	position: absolute; 
+	top: 63px; 
+	left: 50%; 
+	margin-left: -600px; 
+	z-index: 10;
+	transform: rotate(8deg);
+}
+.pencil {
+	background-image: url("images/pencil.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	overflow: hidden;
+}
+.notebook {
+	width: 996px;
+	margin: 316px auto;
+}
+.top {
+	height: 100px;
+	background-image: url("images/top_not.png");
+}
+.middle {
+	background-image: url("images/middle_not.png");
+}
+.content {
+	overflow: hidden;
+	margin-left: 50px;
+	margin-right: 130px;
+}
+.content p {
+	text-align: justify;
+	text-indent: 30px;
+	font-size: 14px;
+	font-family: verdana;
+	line-height: 1.6;
+}
+.content h1, h2, h3 {
+	text-indent: 30px;
+	color: #00a0e3;
+	font-family: verdana;
+	font-size: 24px;
+	font-weight: normal;
+}
+.bottom {
+	height: 80px;
+	background-image: url("images/bott_not.png");
+}
+.pen {
+	width: 272px;
+	height: 568px;
+	background-image: url("images/pen.png");
+	position: absolute;
+	top: 400px;
+	left: 50%;
+	margin-left: 405px;
+}
+.lmenu {
+	width: 138px;
+	height: 490px;
+	position: absolute;
+	top: 360px;
+	left: 50%;
+	margin-left: -613px;
+	overflow: hidden;
+}
+.lmenu a {
+	display: block;
+	width: 142px;
+	height: 57px;
+	margin-bottom: 2px;
+	transition: transform 0.2s;
+}
+.lmenu a:hover {
+	transform: rotate(-6deg);
+}
+.lmenu_1 {
+	background-image: url(images/l_diz.png);
+}
+.lmenu_2 {
+	background-image: url(images/l_pol.png);
+}
+.lmenu_3 {
+	background-image: url(images/l_viv.png);
+}
+.lmenu_4 {
+	background-image: url(images/l_suv.png);
+}
+.lmenu_5 {
+	background-image: url(images/l_rek.png);
+}
+.lmenu_6 {
+	background-image: url(images/l_klient.png);
+}
+.lmenu_7 {
+	background-image: url(images/l_what.png);
+}
+.lmenu_8 {
+	background-image: url(images/l_us.png);
+}
+.tmenu {
+	width: 600px;
+	height: 57px;
+	position: absolute;
+	top: 286px;
+	left: 50%;
+	margin-left: -187px;
+	overflow: hidden;
+}
+.tmenu>div {
+	position: relative;
+	height: 60px;
+}
+.tmenu a {
+	display: block;
+	width: 229px;
+	height: 57px;
+	position: absolute;
+	transition: top 0.2s;
+	top: 3px;
+}
+.tmenu .tmenu_1 {
+	background-image: url(images/red_o.png);
+	width: 147px;
+	z-index: 4;
+}
+.tmenu_2 {
+	background-image: url(images/yell.png);
+	left: 70px;
+	z-index: 3;
+}
+.tmenu_3 {
+	background-image: url(images/green_tr.png);
+	left: 220px;
+	z-index: 2;
+}
+.tmenu_4 {
+	background-image: url(images/pur.png);
+	left: 370px;
+	z-index: 1;
+}
+.tmenu a:hover {
+	top: 0;
+}
+.footer {
+	position: relative;
+}
+.design {
+	position: absolute;
+	left: 50%;
+	bottom: 180px;
+	margin-left: -300px;
+}
+.design img {
+	float: left;
+	margin-right: 10px;
+}
+.footer h1 {
+	font-size: 18px;
+	font-family: tahoma;
+	color: #fff;
+	font-weight: normal;
+}
+.copyright {
+	position: absolute;
+	left: 50%;
+	bottom: 215px;
+	margin-right: -400px;
+}
